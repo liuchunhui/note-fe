@@ -75,6 +75,36 @@ cover值，浏览器选中较小的值，并沿着该方向调整图像的大小
 |padding-box|在内边距盒子内部绘制背景颜色和背景图像|
 |content-box|在内容盒子内部绘制背景颜色和背景图像|
 
+示例代码：
+```html
+<style type="text/css">
+  p {
+	background-color: red;
+	background-image: url(test.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 0px 0px;
+	background-attachment: local;
+	background-origin: border-box;
+	background-clip: border-box;
+	padding: 20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent;
+  }
+</style>
+<p>
+昨天的日子很长，说不清有多少天，但不管有多少天，也不管是受到挫折，还是取得辉煌，都办能代表过去，不能代表将来。比如昨天贫困潦倒的人将来可能会变成富翁；
+昨天锦衣华食的人将来可能沦为乞人；昨天打工的人将来可能会变成老板。这就是三十年河东三十年河西。世上没有永远的胜利，也没有永远的失败，
+胜利和失败在合适的条件下是能够转化的。因此，我们不必为昨天的挫折而萎靡不振，也不必为昨天的辉煌而狂妄自大。只有把过去的挫折和辉煌都作
+为今天的垫脚石，才能攀登美好的明天。昨天的日子很长，说不清有多少天，但不管有多少天，也不管是受到挫折，还是取得辉煌，都办能代表过去，
+不能代表将来。比如昨天贫困潦倒的人将来可能会变成富翁；昨天锦衣华食的人将来可能沦为乞人；昨天打工的人将来可能会变成老板。这就是三十年
+河东三十年河西。世上没有永远的胜利，也没有永远的失败，胜利和失败在合适的条件下是能够转化的。因此，我们不必为昨天的挫折而萎靡不振，
+也不必为昨天的辉煌而狂妄自大。只有把过去的挫折和辉煌都作为今天的垫脚石，才能攀登美好的明天。
+</p>
+```
+![背景效果](imgs/CSS-背景-4.png)
+
 
 ### 盒子阴影
 
