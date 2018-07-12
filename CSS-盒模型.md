@@ -163,6 +163,8 @@ display属性的值：
 #### 行内元素（display: inline）
 
 使用inline值的时候，浏览器会忽略某些属性，如width，height和margin。
+`<span>元素`是行内元素，但是可以设置`margin-left`和`margin-right`,不可以设置`margin-top`和`margin-bottom`。
+span的margin-left和margin-right是本来就有效的，跟display属性没有关系。
 
 #### 行内-块级元素（display: inline-block）
 
